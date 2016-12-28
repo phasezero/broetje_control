@@ -1,0 +1,29 @@
+{
+  "mainFile": "", 
+  "use-tabs": false, 
+  "venv": "", 
+  "relatedProjects": [], 
+  "name": "broetje_control", 
+  "license": "GNU General Public License v3", 
+  "url": "github.com/phasezero/broetje_control", 
+  "pythonPath": "python3", 
+  "preExecScript": "", 
+  "additional_builtins": [], 
+  "programParams": "", 
+  "indentation": 2, 
+  "PYTHONPATH": "", 
+  "supported-extensions": [
+    ".py", 
+    ".html", 
+    ".jpg", 
+    ".png", 
+    ".ui", 
+    ".css", 
+    ".json", 
+    ".js", 
+    ".ini"
+  ], 
+  "project-type": "", 
+  "postExecScript": "", 
+  "description": "software for controlling broetje heating system"
+}

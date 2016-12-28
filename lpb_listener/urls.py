@@ -14,11 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from django.conf.urls import include
-from django.contrib import admin
+from . import views
+
+app_name = 'lpb_listener'
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^temperatures/', include('temperatures.urls')),
-    url(r'^raw/', include('lpb_listener.urls')),
+    url(r'^$', views.IndexView.as_view(), name='index'),
 ]
